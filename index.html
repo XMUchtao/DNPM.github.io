@@ -269,31 +269,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+Parametric 3D models have enabled a wide variety of computer vision and graphics tasks, such as 
+            modeling human faces, bodies and hands. In 3D face modeling, 3DMM is the most widely 
+            used parametric model, but can't generate fine geometric details solely from identity 
+            and expression inputs. To tackle this limitation, we propose a neural parametric model 
+            named DNPM for the facial geometric details, which utilizes deep neural network to 
+            extract latent codes from facial displacement maps encoding details and wrinkles. 
+            Built upon DNPM, a novel 3DMM named Detailed3DMM is proposed, which augments traditional 
+            3DMMs by including the synthesis of facial details only from the identity and expression 
+            inputs. Moreover, we show that DNPM and Detailed3DMM can facilitate two downstream 
+            applications: speech-driven detailed 3D facial animation and 3D face reconstruction 
+            from a degraded image. Extensive experiments have shown the usefulness of DNPM and Detailed3DMM, 
+            and the progressiveness of two proposed applications.
           </p>
         </div>
       </div>
@@ -421,7 +408,7 @@
     <!--/ Animation. -->
 
 
-    <!-- Concurrent Work. -->
+    <!-- Concurrent Work. 
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
@@ -445,7 +432,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div>-->
     <!--/ Concurrent Work. -->
 
   </div>
@@ -480,16 +467,9 @@
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">NerfiesM</a>, 
+            licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
           </p>
         </div>
       </div>
