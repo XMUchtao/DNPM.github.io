@@ -2,7 +2,10 @@
 
 This is the repository that contains source code for the [DNPM](https://xmuchtao.github.io/DNPM.github.io/).
 
-If you find Nerfies useful for your work please cite:
+
+# Code Coming
+
+If you find DNPM useful for your work please cite:
 ```
 @article{park2021nerfies
   author    = {Haitao Cao, Baoping Cheng, Qiran Pu, Haocheng Zhang, Bin Luo, Yixiang Zhuang, Juncong Lin, Liyan Chen, Xuan Cheng},
