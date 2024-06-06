@@ -1,4 +1,4 @@
-# Nerfies
+# DNPM:A Neural Parametric Model for the Synthesis of Facial Geometric Details
 
 This is the repository that contains source code for the [DNPM](https://xmuchtao.github.io/DNPM.github.io/).
 
