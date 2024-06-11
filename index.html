@@ -332,46 +332,28 @@ Parametric 3D models have enabled a wide variety of computer vision and graphics
     </div>
     <!--/ MExp Variation. -->
 
-    <!-- Animation. -->
+    <!-- Application. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Application</h2>
 
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- 3D Face Reconstruction from a Degraded Image -->
+        <h3 class="3D Face Reconstruction from a Degraded Image</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+          we show qualitative comparisons with three SOTA monocular 3D face reconstruction methods, DECA, FaceVerse and FaceScape.
           </p>
+          <img src="./static/images/sr1.jpg" style="width:912px; height: auto;">
+          <img src="./static/images/sr2.jpg" style="width:912px; height: auto;">
+          <img src="./static/images/sr3.jpg" style="width:912px; height: auto;">
+          <img src="./static/images/sr4.jpg" style="width:912px; height: auto;">
+          <img src="./static/images/sr5.jpg" style="width:912px; height: auto;">
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
+        
         <br/>
-        <!--/ Interpolating. -->
+        <!--/ 3D Face Reconstruction from a Degraded Image. -->
 
-        <!-- Re-rendering. -->
+        <!-- Monocular 3D Face Reconstruction. -->
         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
@@ -390,11 +372,11 @@ Parametric 3D models have enabled a wide variety of computer vision and graphics
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
+        <!--/ Monocular 3D Face Reconstruction. -->
 
       </div>
     </div>
-    <!--/ Animation. -->
+    <!--/ Application. -->
 
 
     <!-- Concurrent Work. 
